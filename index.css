@@ -1,0 +1,42 @@
+body {
+    background-color: #282C34; /* ekru */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.centered {
+  display: table;
+  padding-top: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+a:before {
+    content:'';
+    display: block; 
+}
+
+.fa {
+    padding: 3%;
+    color: white;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: grey;
+}
+
+.nav-text {
+    color: whitesmoke;
+}
+
+.nav-text:hover {
+    color: grey;
+}
